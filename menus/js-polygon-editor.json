@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle js-polygon-editor",
+        "command": "js-polygon-editor:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "js-polygon-editor",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "js-polygon-editor:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

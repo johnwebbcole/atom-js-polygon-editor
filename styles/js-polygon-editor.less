@@ -1,0 +1,56 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.js-polygon-editor {
+  display: flex;
+  flex-direction: column;
+}
+
+#drawAreaSource {
+}
+
+.js-polygon-editor-paper {
+    flex: 1 1 auto;
+    background-color: white;
+}
+
+.js-polygon-editor-toolbar {
+  // border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 5px;
+}
+
+.js-polygon-editor-tool {
+  padding: 1px;
+}
+
+.js-polygon-editor-tool-selected {
+  color: greenyellow;
+}
+
+#js-polygon-editor-coordinates {
+  min-width: 110px;
+  text-align: right;
+}
+
+.js-polygon-editor-info textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+.js-polygon-editor-info textarea.js-polygon-editor-default {
+  border: 2px solid gray;
+}
+
+.js-polygon-editor-info textarea.js-polygon-editor-error {
+  border: 2px solid red;
+}
+
+.js-polygon-editor-info textarea.js-polygon-editor-ok {
+  border: 2px solid green;
+}
